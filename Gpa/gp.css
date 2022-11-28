@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    height: 100vh;
+}
+.box{
+    width: 60%;
+    padding-left: 20px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    min-height: 30vh; 
+    margin-left: 20%;
+    margin-right: 20px;
+}
+.box1 p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+.one{
+    margin-left: 70px;
+}
+.box1{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+select{
+    width: 25%;
+    outline: none;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+    
+
+input[type="text"]{
+    width: 25%;
+    padding-left: 20px;
+    border: 3px solid blueviolet;
+    outline: none;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+input[type="number"]{
+    width: 25%;
+    padding-left: 20px;
+    border: 3px solid blueviolet;
+    outline: none;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+input[type="button"]{
+    width: 60px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    outline: auto;
+
+}
+input[type="button"]:active{
+    opacity: 0.4;
+}
+
+.input{
+    width: 97%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    
+}
+
+.table{
+    border-collapse: collapse;
+    overflow: hidden;
+    margin-left: 20px;
+
+   
+
+}
+
+th,td{
+    border: 1px solid #dddd;
+    padding: 10px 70px;
+    
+  }
+th{
+
+
+    top: 0;
+    background: blueviolet;
+    color: white;
+    position: sticky;
+    font-weight: 800;  
+    
+    font-size: 17px;
+    font-weight: bold;
+}
+tbody{
+    color: white;
+    background-color: grey;
+}
+tfoot{
+    color: blueviolet;
+    background: whitesmoke ;
+}
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    
+    
+    
+
+    
+}
+.hey{
+    min-height: 80vh;
+}
+.calc {
+    display: none;
+
+}
+.rest {
+    display: none;
+}
+
+.button input[type="button"]{
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 4px 15px 4px 20px;
+    width: 90px;
+    margin-left: 30px;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    width: 51%;
+    padding: 10px 20px 10px 20px;
+    margin-left: 300px;
+    
+    margin-top: 5px;
+}
